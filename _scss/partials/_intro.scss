@@ -16,7 +16,8 @@
     padding: 70px 50px;
   }
 
-  &__hello, &__tagline {
+  &__hello,
+  &__tagline {
     font-size: 2.5rem;
     @include desktop {
       font-size: 2.25rem;
@@ -53,7 +54,8 @@
   &__hello {
     font-weight: 300;
     .wave-hand {
-      background-image: url('../img/emojis/wave.png');
+      //background-image: url('../img/emojis/wave.png');
+      background-image: url('../img/emojis/foldedhands.png');
       margin-left: 10px;
       cursor: pointer;
 
